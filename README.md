@@ -54,31 +54,18 @@ This analysis uses two datasets from the Government of India's Open Data Portal 
 
 - The analysis also reveals substantial variation in women's political representation across states. The consistency in women's proportion as electors across states reflects India's balanced gender demographic, making the representation gap more pronounced. This suggests that local factors, policies, and cultural contexts play crucial roles.
 
-## Technical Implementation
-
-The analysis uses Python with the following libraries:
-
-- `pandas` for data manipulation and merging
-- `matplotlib` for creating visualizations
-- `numpy` for numerical operations
+## Implementation
 
 The code implements:
 
 - Data cleaning and merging of two datasets
-- Multiple visualization techniques (bar charts, line plots, box plots, scatter plots)
-- Statistical analysis of distributions and correlations
+- The following visualisation techniques - bar chart, box plot and scatter plot
+- Analysis of visualisations
 
-## Methodology
-
-1. **Data Integration**: Inner join of both datasets on state names to ensure analysis of common states
-2. **Visualization Strategy**: Multiple chart types to reveal different aspects of the data
-3. **Comparative Analysis**: Side-by-side comparison of participation metrics
-4. **Distribution Analysis**: Statistical examination of data spread and outliers
-
-## Files in this Repository
+Files in this repository:
 
 - `/plots`: Directory containing the generated plots
-- `test.ipynb`: Jupyter notebook containing the complete analysis and visualizations
+- `visualisations.ipynb`: Jupyter notebook containing the visualisations
 - `README.md`: This documentation file
 
 ## Citations
